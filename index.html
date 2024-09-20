@@ -4,102 +4,405 @@
 <head>
     <meta charset="UTF-8">
     <link href="main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>Anshuman Portfolio</title>
-    <script src="js/jquery-2.1.1.js"></script>
-    
-    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css"/>	
+
+
+
 </head>
+
 <body>
 
     <header>
         <div class="wrap">
-        <aside class="lft"><a href="index.html">
-        <img src="images/logo-v2.png"></a>
-        </aside>
-        
-        <aside class="rgt">
-            <a class="Hamburger">
-                <span>
-                    <div class="line top"></div>
-                    <div class="line"></div>
-                    <div class="line bottom"></div>
-                </span>
-            </a>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="downloads/anshuman-websitedesigner-resume.pdf" target="_blank">My Resume</a></li>
-                    
-                    <li><a href="mailto:thakuranshuman341@gmail.com" class="btn" target="_blank">Contact Me</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <div class="clear"></div>
-        
-        
-        </div>
-        </header>
-        <script type="text/javascript">$(".Hamburger").click(function() {	
-            $(".Hamburger").toggleClass("active");	
-            $("nav").toggleClass("active");	
-            });</script>	
-        <section class="bnr">
-            <ul class="icn">
-                <li><a href="https://github.com/cnanshuman" target="_blank"><img src="images/fac.png"></a></li>
-                <li><a href="https://www.instagram.com/anshuman_thakur_12/" target="_blank"><img src="images/insta.png"></a></li>
-                <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><img src="images/in.png"></a></li>
-                </ul>
-            <div class="banner">
-                <video autoplay muted loop playsinline>
-                  <source src="images/main-video.mp4" type="video/mp4">
-                  <img src="images/bnr-v2.jpg" alt="Fallback Image">
-                </video>
-                <div class="banner-text">
-                    <h1>Frontend Developer &
-                    <br>UI UX Designer
-                    </h1>
-                   
-                
-                </div>
-            </div>
-        </section>
+            <aside class="lft"><a href="index.html">
+                    <img src="images/logo-v2.png"></a>
+            </aside>
 
-
-        <section class="abt" id="about">
-            <div class="wrap">
-                <div>
-                    <span>What you can expect from me:</span>
-                    <h3 class="in-view">I prioritize tidy layouts, clean typography, and precise alignment to create user-friendly websites. With a passion for minimalism, I strive to enhance the impact of brands' messages, stories, and visuals in every design.</h3>
-                </div>
-                <aside class="lft ">
-                    <span>All services</span>
+            <aside class="rgt">
+                <a class="Hamburger ">
+                    <span>
+                        <div class="line top"></div>
+                        <div class="line"></div>
+                        <div class="line bottom"></div>
+                    </span>
+                </a>
+                <nav class="nav">
                     <ul>
-                        <li><span>1.</span><p>Custom Website Design and Development</p></li>
-                        <li><span>2.</span><p>Responsive Designs for All Devices</p></li>
-                        <li><span>3.</span><p>Intuitive UI/UX for Better Engagement</p></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="downloads/anshuman-websitedesigner-resume.pdf" target="_blank">My Resume</a></li>
+
+                        <li><a href="#contact" class="btn">Contact Me</a></li>
                     </ul>
-                </aside>
-        
-                <aside class="rgt">
-                    <p>With a <span>0</span>months of experience in training and designing presentations for domestic enterprises, I have developed a comprehensive understanding of layout presentation, content organization, and the effective use of motion effects. This foundation has equipped me with the skills to create visually compelling and engaging designs. Transitioning into web design, I now leverage this expertise alongside my knowledge of front-end programming to build user-friendly and dynamic websites. My goal is to craft digital experiences that not only showcase brand identities but also enhance user engagement and drive conversions.</p>
-                    <a href="downloads/anshuman-websitedesigner-resume.pdf" target="_blank;">More about me</a>
-                </aside>
-                <div class="clear"></div>
+                </nav>
+            </aside>
+            <div class="clear"></div>
+
+
+        </div>
+    </header>
+    <script type="text/javascript">$(".Hamburger").click(function () {
+            $(".Hamburger").toggleClass("active");
+            $("nav").toggleClass("active");
+        });</script>
+    <header>
+        <div class="wrap">
+            <aside class="lft">
+                <a href="index.html">
+                    <img src="images/logo-v2.png" alt="Logo">
+                </a>
+            </aside>
+
+            <aside class="rgt">
+                <a class="Hamburger">
+                    <span>
+                        <div class="line top"></div>
+                        <div class="line"></div>
+                        <div class="line bottom"></div>
+                    </span>
+                </a>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="downloads/anshuman-websitedesigner-resume.pdf" target="_blank">My Resume</a></li>
+                        <li><a href="#contact" class="btn">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Toggle hamburger menu
+            $(".Hamburger").click(function () {
+                $(".Hamburger").toggleClass("active");
+                $("nav").toggleClass("active");
+            });
+
+            // Close hamburger menu when a navigation link is clicked
+            $("nav a").click(function () {
+                $(".Hamburger").removeClass("active");
+                $("nav").removeClass("active");
+            });
+        });
+    </script>
+    <div class="custom-cursor" id="cursor"></div>
+
+    <script>
+        const cursor = document.getElementById('cursor');
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+        });
+
+        document.addEventListener('mouseover', () => {
+            cursor.style.transform = 'scale(1.2)';
+        });
+
+        document.addEventListener('mouseout', () => {
+            cursor.style.transform = 'scale(1)';
+        });
+    </script>
+
+    <section class="bnr">
+        <ul class="icn">
+            <li><a href="https://github.com/cnanshuman" target="_blank"><img src="images/fac.png"></a></li>
+            <li><a href="https://www.instagram.com/anshuman_thakur_12/" target="_blank"><img src="images/insta.png"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                    target="_blank"><img src="images/in.png"></a></li>
+        </ul>
+        <div class="banner">
+            <video autoplay muted loop playsinline preload="auto">
+                <source src="images/bnr-vid.mp4" type="video/mp4">
+                <img src="images/banner-v2.jpg" alt="Fallback Image">
+            </video>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var video = document.querySelector('video');
+                    if (video) {
+                        video.load(); // Reload the video
+                        video.play(); // Try to play it
+                    }
+                });
+            </script>
+
+            <div class="banner-text">
+                <h1>I AM A UI UX DESIGNER &
+                    <br>FRONTEND DEVELOPER
+                </h1>
+
+
             </div>
-        </section>
-            
-              
+        </div>
+    </section>
+
+    <section class="abt" id="about">
+        <div class="wrap">
+            <div>
+                <span>What you can expect from me:</span>
+                <h3 class="in-view">
+                    I prioritize tidy layouts, clean typography, and precise alignment to create user-friendly websites.
+                    With a passion for minimalism, I strive to enhance the impact of brands' messages, stories, and
+                    visuals in every design.
+                </h3>
+            </div>
+            <aside class="lft">
+                <span>All services</span>
+                <ul>
+                    <li><span>1.</span>
+                        <p>Custom Website Design and Development</p>
+                    </li>
+                    <li><span>2.</span>
+                        <p>Responsive Designs for All Devices</p>
+                    </li>
+                    <li><span>3.</span>
+                        <p>Intuitive UI/UX for Better Engagement</p>
+                    </li>
+                </ul>
+            </aside>
+            <aside class="rgt">
+                <p>With <span class="experience-num">0</span> months of experience in training and designing
+                    presentations for domestic enterprises, I have developed a comprehensive understanding of layout
+                    presentation, content organization, and the effective use of motion effects. This foundation has
+                    equipped me with the skills to create visually compelling and engaging designs. Transitioning into
+                    web design, I now leverage this expertise alongside my knowledge of front-end programming to build
+                    user-friendly and dynamic websites. My goal is to craft digital experiences that not only showcase
+                    brand identities but also enhance user engagement and drive conversions.</p>
+                <a href="downloads/anshuman-websitedesigner-resume.pdf" target="_blank;">See My Resume</a>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const experienceNum = document.querySelector('.experience-num');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateNumber(experienceNum, 0, 9, 1000); // Animate from 0 to 9 in 1 second (1000ms)
+                    }
+                });
+            }, { threshold: 0.5 }); // Animation starts when 50% of the section is visible
+
+            const aboutSection = document.querySelector('#about'); // Observing the correct "About" section
+            observer.observe(aboutSection); // Observing the "About" section
+
+            function animateNumber(element, start, end, duration) {
+                let startTime = null;
+
+                function step(currentTime) {
+                    if (!startTime) startTime = currentTime;
+                    const progress = currentTime - startTime;
+                    const currentNumber = Math.min(Math.floor((progress / duration) * (end - start) + start), end);
+                    element.textContent = currentNumber;
+
+                    if (progress < duration) {
+                        requestAnimationFrame(step);
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+        });
+    </script>
+
+
+    <section class="project" id="project">
+        <div class="wrap">
+            <div class="heading">
+                <h2>Innovative Projects</h2>
+                <h4>A Journey Through My Creative and Development Work</h4>
+            </div>
+
+            <ul>
+                <li><a href="https://thecrayonsnetwork.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/frst-prjct.jpg"></div>
+                        <h2>THE CRAYON NETWORK</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://osgalkaline.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/osg.jpg"></div>
+                        <h2>OSG ALKALINE</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://www.tecochemicals.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/teco.jpg"></div>
+                        <h2>TECO CHEMICALS</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://drjasdeepkaur.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/skin.jpg"></div>
+                        <h2>SKIN AURA</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://www.hcjpipe.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/hcj.jpg"></div>
+                        <h2>HCJ PIPE</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li class="waste"><a href="https://gulftechgroup.in/" target="_blank">
+                        <div class="imgpnl"><img src="images/gulf.jpg"></div>
+                        <h2>GULF TECH</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://siyamahajan.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/siya.jpg"></div>
+                        <h2>SIYA MAHAJAN</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="http://tydoctyres.com/" target="_blank">
+                        <div class="imgpnl"><img src="images/tydoc.jpg"></div>
+                        <h2>TYDOC TYRE</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+
+                <li><a href="https://kulbir-travel.netlify.app/" target="_blank">
+                        <div class="imgpnl"><img src="images/kulbir.jpg"></div>
+                        <h2>KULBIR TRAVEL</h2>
+                        <p>UI/UX design and development for a seamless user experience.</p>
+                        <h5>See Project</h5>
+                    </a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="wrap">
+            <div class="heading">
+                <h2>Skills & Abilities</h2>
+                <h4>Bringing Vision to Life with Proven Skills</h4>
+            </div>
+            <ul>
+                <li>HTML (Hyper Text Markup Language)</li>
+                <li>CSS (Cascading Style Sheets)</li>
+                <li>JavaScript</li>
+                <li>React JS</li>
+                <li>Adobe Photoshop</li>
+                <li>Visual Studio</li>
+                <li>Bootstrap</li>
+                <li>Adobe Dreamweaver</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="study">
+        <div class="wrap">
+            <div class="heading">
+                <h2>Study Highlights</h2>
+                <h4>Elevating Skills Through Focused Study</h4>
+            </div>
+
+            <ul>
+                <li>
+                    <h2>2024 -Frontend</h2>
+                    <p>Frontend Course at CodingNest</p>
+                </li>
+                <li>
+                    <h2>2023 -Website Designer</h2>
+                    <p>Website Designer Course at Gurus 11</p>
+                </li>
+                <li>
+                    <h2>9 Month Experience</h2>
+                    <p>At Gurus 11 (Junior Website Designer)</p>
+                </li>
+
+                <li>
+                    <h2>2024 - Present</h2>
+                    <p>Bachelor of computer application</p>
+                </li>
+                <li>
+                    <h2>2021 - School life</h2>
+                    <p>Passed Class 12th.</p>
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="cont " id="contact">
+        <div class="wrap">
+            <span>That's all for now</span>
+            <h3>Got a project in mind?<br>
+                Let’s talk</h3>
+
+            <div class="line "></div>
+
+            <ul>
+                <li><a href="mailto:thakuranshuman341@gmail.com"><span>Email Id:</span>thakuranshuman341@gmail.com</a>
+                </li>
+
+                <li><a href="tel:+919582276626"><span>Phone No:</span>+91 9582 27 6626</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="moving-text">
+            <h3>ANSHUMAN PORTFOLIO</h3>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll('a[href^="#"]');
+
+            links.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
+
 </html>
